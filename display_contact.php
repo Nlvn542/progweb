@@ -9,7 +9,7 @@
     <main class="main-card">
         <h1>Merci pour votre message !</h1>
         <?php
-            // Récupération des données via la méthode GET demandée
+            
             $pseudo = $_GET['pseudo'] ?? 'Utilisateur';
             $categorie = $_GET['categorie'] ?? '';
 

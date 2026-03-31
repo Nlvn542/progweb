@@ -20,7 +20,7 @@
         </form>
 
         <?php
-        // On vérifie si le formulaire a été envoyé
+        
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $reponse = $_POST['reponse_user'];
             $juste = 2; // La réponse exacte
