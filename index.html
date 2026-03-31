@@ -39,9 +39,37 @@
             Ce site présente les principaux aliments utiles et essentiels pour les sportifs, qu’ils soient débutants ou confirmés. L’alimentation joue un rôle fondamental dans la performance sportive, la récupération et le maintien d’une bonne santé. Bien manger permet non seulement d’améliorer ses résultats, mais aussi de prévenir les blessures et la fatigue.
         </p>
     </section>
+    <section class="main-card">
+        <h2>Le défi du jour : La Devinette</h2>
+        <p>Pensez-vous connaître les besoins nutritionnels ?</p>
+        <a href="devinette.php" class="btn">Jouer à la devinette</a>
+    </section>
+    <section id="quiz-section">
+        <h2>Testez vos connaissances !</h2>
+        <div id="quiz-container">
+            <p id="question-text"></p>
+            <button onclick="checkAnswer(true)">Oui</button>
+            <button onclick="checkAnswer(false)">Non</button>
+            <p id="feedback"></p>
+            <p>Score actuel : <span id="score-display">0</span></p>
+        </div>
+    </section>
+    <script src="quiz.js"></script>
+
+
 </main>
+<footer>
+        <div class="footer-container">
+            <p>Nutrition Sportive - Projet 2026</p>
+            <p>
+                <a href="contact.php" class="btn">Nous contacter / Newsletter</a>
+            </p>
+        </div>
+    </footer>
 
-
+    <script src="quiz.js"></script>
+</body>
+</html>
 
 </body>
 </html>
