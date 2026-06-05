@@ -23,4 +23,4 @@ INSERT INTO (question, reponse, points) VALUES
 
 
 CREATE USER 'compte_concours'@'localhost' IDENTIFIED BY 'nolanjbn971';
-GRANT ALL PRIVILEGES ON *.* TO 'cpt_concours'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'compte_concours'@'localhost';
