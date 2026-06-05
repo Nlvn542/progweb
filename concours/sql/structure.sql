@@ -1,6 +1,6 @@
 CREATE DATABASE structure DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-CREATE TABLE client (
+CREATE TABLE question (
     nb_question INT AUTO_INCREMENT,
     question VARCHAR(500),
     reponse BOOLEAN (3),
