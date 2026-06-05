@@ -12,9 +12,9 @@ $bdd = connexionBdd();
 <body>
 
     <h1>Bienvenue sur le Grand Quizz Concours !</h1>
-
+        <a href="hasard.php">Une question au hasard</a>
 </body>
 </html>
 
-<a href="hasard.php">Une question au hasard</a>
+
 
