@@ -1,15 +1,9 @@
 <?php
 require_once 'outils.php' ;
-try {
+$bdd = connexionBdd();
+$requete = $bdd->query('SELECT nb_question, question, points, reponse FROM question');
+$question= $requete->fetchALL();
 
-    $bdd = connexionBdd();
-    $requete = $bdd->query('SELECT nb_question, question, points, reponse FROM question');
-    $question= $requete->fetchALL();
-
-    Var_dump($question);
-} catch (exception $e) {
-    die("Erreur : ".$e->getMessage());
-}
 ?>
 
 

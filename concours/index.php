@@ -16,3 +16,5 @@ $bdd = connexionBdd();
 </body>
 </html>
 
+<a href="hasard.php">Une question au hasard</a>
+
