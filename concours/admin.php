@@ -1,3 +1,8 @@
+<?php
+require_once 'outils.php' ;
+$bdd = connexionBdd();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
