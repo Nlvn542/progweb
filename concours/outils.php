@@ -13,12 +13,12 @@ function connexionBdd() {
     // Informations à propos du serveur de base de données
     $host = getenv('DB_CONCOURS_HOST') ?: '127.0.0.1';
     $port = getenv('DB_CONCOURS_PORT') ?: '3306';
-    $db   = getenv('DB_CONCOURS_NAME') ?: 'concours';
+    $db   = getenv('DB_CONCOURS_NAME') ?: 'structure';
     $dsn = "mysql:host=$host;port=$port;dbname=$db;charset=utf8mb4";
 
     // Informations à propos du compte permettant de gérér la base de données
-    $user = getenv('DB_CONCOURS_USER') ?: 'usr_concours';
-    $pass = getenv('DB_CONCOURS_PASS') ?: 'secret_password';
+    $user = getenv('DB_CONCOURS_USER') ?: 'compte_concours';
+    $pass = getenv('DB_CONCOURS_PASS') ?: 'nolanjbn971';
 
     try {
         $pdo = new PDO($dsn, $user, $pass);
