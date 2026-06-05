@@ -22,3 +22,5 @@ INSERT INTO (question, reponse, points) VALUES
     ("Les bonbons et les fruit contiennent le même type de glucides à assimilation lente que les pâtes complêtes", 0, 100);
 
 
+CREATE USER 'compte_concours'@'localhost' IDENTIFIED BY 'nolanjbn971';
+GRANT ALL PRIVILEGES ON *.* TO 'cpt_concours'@'localhost';
