@@ -3,8 +3,8 @@ CREATE DATABASE structure DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_
 CREATE TABLE question (
     nb_question INT AUTO_INCREMENT,
     question VARCHAR(500),
-    reponse BOOLEAN (3),
-    points INT NOT NULL,
+    reponse BOOLEAN,
+    points INT,
     PRIMARY KEY(nb_question)
 ) ENGINE InnoDB;
 
