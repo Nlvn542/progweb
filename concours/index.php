@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+</head>
+<body>
+
+    <h1>Bienvenue sur le Grand Quizz Concours !</h1>
+
+</body>
+</html>
+
